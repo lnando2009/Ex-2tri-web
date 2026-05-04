@@ -15,17 +15,18 @@ main{
     width: 50%;
     height: 70vh;
     border-radius: 15px;
-    background: #fff;
+    background: #a1dafff6;
     margin-top: 15vh;
 }
 
 h1{
     width: 100%;
+    height: 15vh;
     float: left;
     font-family: Arial, "Helvetica Neue" Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-align: center;
-    margin-top: 2vh;
+    margin-top: 5vh;
 
 }
 
@@ -33,18 +34,23 @@ p{
     width: 100%;
     height: auto;
     float: left;
-    margin-top: 2vh;
+    margin-top: 8vh;
     text-align: center;
     font-family: Arial, "Helvetica Nueu",Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
 }
 button{
-    width: 20%;
+    width: 30%;
     height: 5vh;
     float: left;
-    margin-left: auto;
+    margin-left: 35%;
     margin-top: 2vh;
     font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
-    color: red;
+    color: rgb(0, 0, 0);
     font-weight: bold;
+    background: rgba(0, 94, 172, 0.651);
+    font-size: 1.1rem;
+
 }

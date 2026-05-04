@@ -4,7 +4,9 @@ let frases =[
     "Com grandes poderes vem grandes responsabilidades - Tio Ben",
     "Existe diferença entre sobreviver e viver - The lest of Us",
     "As vezes é melhor ter paciência do que agir impulsivamente - Zelda BOTW",
-    "GOOOOOOOOOOL - FC 26"
+    "GOOOOOOOOOOL - FC 26",
+    "Finish him! - Mortal Kombat",
+    "Nada é verdade, tudo é permitido - Assassin's Creed"
 ];
 
 
@@ -14,8 +16,8 @@ function gerarFrases(){
 
     let fraseEscolhida = frases[indice];
 
-    clique = cliques+1;
+    clique = clique+1;
 
     document.getElementById("frase").innerText = fraseEscolhida;
-    document.getElementById("contador").innerText = "Frases geradas: "+cliques;
+    document.getElementById("contador").innerText = "Frases geradas: "+clique;
 }
